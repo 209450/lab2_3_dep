@@ -1,7 +1,6 @@
 package edu.iis.mto.search;
 
-import edu.iis.mto.bsearch.SearchResult;
 
-public interface SearchFascade {
+public interface SearchEngine {
 	SearchResult search(int key, int[] seq);
 }
