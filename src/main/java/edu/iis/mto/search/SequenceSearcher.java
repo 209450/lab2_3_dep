@@ -1,6 +1,6 @@
 package edu.iis.mto.search;
 
 
-public interface SearchEngine {
+public interface SequenceSearcher {
 	SearchResult search(int key, int[] seq);
 }
